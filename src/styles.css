@@ -90,4 +90,8 @@ input:focus-visible {
     .App{
       font-size: 7px;
     }
+    h4 {
+      text-align: left;
+      margin-left: 40px;
+    }
   }

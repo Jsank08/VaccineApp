@@ -21,8 +21,7 @@ export default function App() {
   return (
     <div className="App" >
       <div class="PinDiv">
-        
-      <p>Enter Your Area PIN to Check Availibilty</p>
+      <h4>Enter Your Area PIN to Check Availibilty</h4>
       <input type="text" onChange={ (e) => {onChangeHandler(e)}} />
       <button class="button1" onClick={onClickHandler}>Submit</button>
       </div>
